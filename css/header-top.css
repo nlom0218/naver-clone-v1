@@ -1,0 +1,96 @@
+.header-top {
+  margin: 0px 380px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top .header-top_title,
+.header-top .header-top_search {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top .header-top_title i {
+  font-size: 50px;
+  margin-right: 15px;
+  color: #06cf5c;
+  cursor: pointer;
+}
+
+.header-top .header-top_title span {
+  font-size: 40px;
+  font-weight: 900;
+  color: #06cf5c;
+  cursor: pointer;
+}
+
+.header-top_search {
+  margin-left: 26px;
+  margin-right: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.header-top_search input {
+  padding-left: 10px;
+  font-size: 19px;
+  width: 530px;
+  height: 55px;
+  outline: none;
+  border: 2px solid #06cf5c;
+}
+
+.header-top_search .keyboardicon {
+  position: absolute;
+  right: 100px;
+  opacity: 0.4;
+}
+.header-top_search .caret-downicon {
+  position: absolute;
+  right: 70px;
+  color: #06cf5c;
+}
+
+.header-top_search .searchicon {
+  background-color: #06cf5c;
+  height: 55px;
+  width: 55px;
+  font-size: 30px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-top_addInfo {
+  margin-top: 10px;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-top_addInfo .chevron-right {
+  margin: 0px 8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #bfc4c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-top_addInfo .addInfo_junior {
+  padding: 0px 8px;
+  border-left: 1px solid #bfc4c9;
+}
+
+.header-top_addInfo .addInfo_junior,
+.header-top_addInfo .addInfo_happybin {
+  opacity: 0.5;
+}
