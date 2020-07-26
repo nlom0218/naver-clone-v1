@@ -1,0 +1,62 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  margin-bottom: 15px;
+  border-top: 1px solid #e0e3e6;
+  border-bottom: 1px solid #e0e3e6;
+}
+
+.nav-bar_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 380px;
+}
+
+.nav-bar_setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 380px;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.nav-bar .item_title {
+  font-size: 16px;
+  margin-right: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.item_title .item_g-title,
+.item_title i {
+  color: #06cf5c;
+}
+
+.setting .setting-column {
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+.setting .setting_more,
+.setting .setting_set {
+  margin-right: 10px;
+}
+
+.setting .setting-column {
+  display: flex;
+}
+
+.setting .setting_mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  width: 13px;
+  height: 13px;
+  border-radius: 6.5px;
+  background-color: #d2d7dd;
+  color: white;
+}

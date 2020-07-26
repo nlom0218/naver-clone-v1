@@ -1,0 +1,170 @@
+.menu_profile .info_avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.menu .menu_profile {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f9fa;
+  border: 1.3px solid #e0e3e6;
+}
+
+.profile .profile_info,
+.profile_info-column,
+.info_me_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile .profile_info {
+  padding: 18px;
+  border-bottom: 1.3px solid #e0e3e6;
+}
+
+.profile .profile_tag {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag .tag_badge {
+  position: absolute;
+}
+
+.tag .badge1 {
+  font-weight: 500;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #06cf5c;
+  padding: 5px 7px;
+  border-radius: 10px;
+  top: -10px;
+  right: 163px;
+}
+
+.tag .badge2 {
+  font-weight: 500;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 7px;
+  border-radius: 10px;
+  background-color: #06cf5c;
+  right: 33px;
+  top: -10px;
+}
+
+.profile_tag .tag_title {
+  padding: 16px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.profile_tag .tag_title:nth-child(2n) {
+  border-right: 1.3px solid #e0e3e6;
+  border-left: 1.3px solid #e0e3e6;
+}
+
+.info .info_me {
+  font-size: 13px;
+}
+
+.info_me .info_me_up,
+.info_me .info_me_center {
+  opacity: 0.7;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.info_me_up_name {
+  padding-right: 10px;
+  border-right: 1.3px solid #e0e3e6;
+  cursor: pointer;
+}
+.info_me_up_info {
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.info_me_up_info i {
+  padding-left: 5px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.info_me_up_info i:hover {
+  color: #06cf5c;
+}
+
+.info_me .info_me_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.info_me .info_me_bottom_mail,
+.info_me .info_me_bottom_note {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.info_me .info_me_bottom_mail-number {
+  margin-right: 15px;
+  color: #06cf5c;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.info_me .info_me_bottom_note-number {
+  color: #06cf5c;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.profile_info .info_logout {
+  font-size: 11px;
+  width: 66px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccd0d4;
+  border-radius: 15px;
+  color: white;
+}
+
+.profile_info .info_logout:hover {
+  background-color: #a1a1a1;
+}
+
+.info .info_avatar {
+  position: relative;
+}
+
+.info_avatar i {
+  font-size: 12px;
+  position: absolute;
+  background-color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  color: #9a9ea2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 11px;
+  bottom: 1px;
+}

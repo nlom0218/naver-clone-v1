@@ -1,0 +1,19 @@
+.main {
+  position: relative;
+}
+
+.main_contents {
+  position: absolute;
+  left: 380px;
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_menu {
+  position: absolute;
+  left: 1190px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
