@@ -1,9 +1,9 @@
 .header-top {
-  margin: 0px 380px;
   display: flex;
-  justify-content: space-between;
 }
-
+.header-top .header-top_title {
+  margin-left: 380px;
+}
 .header-top .header-top_title,
 .header-top .header-top_search {
   margin-top: 50px;
