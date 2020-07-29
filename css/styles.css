@@ -10,7 +10,8 @@
 @import "content_channel.css";
 @import "menu_important-info.css";
 @import "menu_ad.css";
-
+@import "article_banner.css";
+@import "article_list.css";
 * {
   box-sizing: border-box;
 }

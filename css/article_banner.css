@@ -1,0 +1,32 @@
+.article_banner,
+.article_banner .article_banner-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article_banner .article_banner_title {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.article_banner .article_banner_title-info {
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 10px;
+  opacity: 0.6;
+}
+
+.article_banner .article_banner_number {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.article_banner .article_banner_setting {
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1.3px solid #e0e3e6;
+  opacity: 0.6;
+}
