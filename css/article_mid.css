@@ -1,0 +1,33 @@
+.article_mid {
+  margin: 20px 0px;
+  display: flex;
+  border: 1.3px solid #e0e3e6;
+  background-color: #f7f9fa;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.article_mid_title {
+  margin: 12px 0px;
+  padding: 8px 18px;
+  color: #0047b5;
+  border-right: 1.3px solid #e0e3e6;
+  cursor: pointer;
+}
+
+.article_mid_list {
+  display: flex;
+}
+
+.article_mid_item {
+  margin: 20px 13px;
+  cursor: pointer;
+}
+
+.article_mid_title:hover {
+  text-decoration: underline;
+}
+
+.article_mid_item:hover {
+  text-decoration: underline;
+}

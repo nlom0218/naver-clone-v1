@@ -12,11 +12,14 @@
 @import "menu_ad.css";
 @import "article_banner.css";
 @import "article_list.css";
+@import "article_top.css";
+@import "article_mid.css";
 * {
   box-sizing: border-box;
 }
 
 body {
+  height: 10000px;
   background-color: #ffffff;
   color: #020202;
   font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI",
