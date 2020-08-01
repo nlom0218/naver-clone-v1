@@ -1,0 +1,122 @@
+.article_under .article_under_images {
+  width: 230px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.article_under_item {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  margin-bottom: 35px;
+}
+.article_under_item:nth-child(7),
+.article_under_item:nth-child(8),
+.article_under_item:nth-child(9) {
+  margin-bottom: 0px;
+}
+
+.article_under_image {
+  position: relative;
+  margin-bottom: 17px;
+}
+
+.article_under_image i {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.article_under_image .article_under_image_time {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: #060e15;
+  color: white;
+  padding: 5px;
+  font-size: 11px;
+}
+
+.article_under_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article_under_content {
+  cursor: pointer;
+}
+
+.article_under_content_kind {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0047b5;
+}
+
+.article_under_content_headline {
+  margin: 11px 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.article_under_content_source {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.article_under_content_kind:hover ~ .article_under_content_headline {
+  text-decoration: underline;
+}
+
+.article_under_content_headline:hover {
+  text-decoration: underline;
+}
+
+.article_under_mid-bar {
+  height: 1px;
+  width: 780px;
+  background-color: #d2d7db;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.article_under_under-bar {
+  position: relative;
+  height: 1px;
+  width: 780px;
+  background-color: #d2d7db;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-article_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.article_under_nuder-bar_content {
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -22px;
+  cursor: pointer;
+}
+
+.new-article_see {
+  font-size: 14px;
+}

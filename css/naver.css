@@ -1,0 +1,207 @@
+.naver {
+  background-color: #fafbfc;
+  border-top: 1px solid #e0e3e6;
+}
+
+.naver-ad {
+  width: 160px;
+  height: 100px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.naver .naver_info,
+.naver .naver_notice,
+.naver .naver_more,
+.naver .naver_company {
+  margin-left: 380px;
+  width: 1160px;
+}
+
+.naver .naver_info {
+  margin-top: 30px;
+}
+
+.naver_info .naver_info_ad {
+  display: flex;
+  justify-content: space-between;
+}
+
+.naver_info_ad .naver_info_ad-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.naver_info_ad-column .naver_info_ad_content {
+  font-size: 14px;
+}
+
+.naver_info_ad_contnent_top {
+  color: #06cf5c;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.naver_info_ad_contnent_mid {
+  font-weight: 600;
+  margin: 8px 0px;
+  cursor: pointer;
+}
+.naver_info_ad_contnent_mid:hover {
+  text-decoration: underline;
+}
+
+.naver_info_ad_contnent_top:hover ~ .naver_info_ad_contnent_mid {
+  text-decoration: underline;
+}
+
+.naver_info_ad_contnent_under {
+  line-height: 20px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.naver_notice {
+  margin: 25px 0px;
+  padding: 20px 0px;
+  border-top: 1px solid #e0e3e6;
+  border-bottom: 1px solid #e0e3e6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.naver_notice-column {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.naver_notice_title,
+.naver_notice_service {
+  margin-right: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.naver_notice_content,
+.naver_notice_service-icon {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.naver_notice_title:hover {
+  text-decoration: underline;
+}
+.naver_notice_service:hover {
+  text-decoration: underline;
+}
+.naver_notice_content:hover {
+  text-decoration: underline;
+}
+
+.naver .naver_more {
+  display: flex;
+}
+.naver .naver_more-info,
+.naver_more-info_content-top,
+.naver_more-info_content-mid,
+.naver_more-info_content-under,
+.naver .naver_more-ad {
+  display: flex;
+  align-items: center;
+}
+.naver_more-info_title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.naver_more-info_content {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #e0e3e6;
+  cursor: pointer;
+}
+
+.naver_more-info_content:hover {
+  text-decoration: underline;
+}
+
+.naver .naver_more-ad {
+  margin-left: 100px;
+}
+
+.naver .naver_more-ad-column {
+  margin-right: 30px;
+  display: flex;
+}
+
+.naver .naver_more-ad-column i {
+  margin-left: 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.naver_more-ad-column .fa-comment {
+  color: #03cfb4;
+}
+
+.naver_more-ad-column .fa-seedling {
+  color: #469bdf;
+}
+
+.naver-more-ad_content-top {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.naver-more-ad_content-under {
+  font-size: 14px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.naver-more-ad_content-under :hover {
+  text-decoration: underline;
+}
+
+.naver .naver_company {
+  margin-top: 10px;
+  padding-top: 25px;
+  padding-bottom: 100px;
+  border-top: 1px solid #e0e3e6;
+  display: flex;
+  align-items: center;
+}
+
+.naver_company .naver_company_item {
+  font-size: 14px;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid #e0e3e6;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.naver_company .naver_company_item:hover {
+  text-decoration: underline;
+}
+.naver_company .naver_company_item:nth-child(5) {
+  font-weight: 600;
+}
+
+.naver_company_title {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.naver_company .naver_company_title:hover {
+  text-decoration: underline;
+}
